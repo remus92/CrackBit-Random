@@ -6,7 +6,6 @@ Bitcoin key generator (CUDA) – Philox, Feistel, secp256k1, SHA256, RIPEMD160, 
 
 CUDA-accelerated Bitcoin key generator with multiple search strategies:
 **Philox RNG**, **Feistel permutation**, **random search**, and **checkpointed block scanning**.
-
 (main) root@C.52975240:/workspace$ ./wallet_cuda11 -v4 -gpux 100,256 -kpt 4  20000000:3fffffff 1LHtnpd8nU5VHEMkG2TMYYNUjjLc992bps
 [auto-preset] GTX 1660/2060  gpux=100,256  kpt=4  rkey=50000000000
 ========================================
@@ -52,6 +51,8 @@ Cursor: 0x000000000000000000 (0.0000%) | 784270.6 keys/s | Total: 52,428,800 | B
 ==================================================
 Search finished | Total: 78,643,200 | Avg: 784259.34 keys/s
 Cheile gasite au fost salvate in: found_keys.txt
+
+---
 
 ---
 
