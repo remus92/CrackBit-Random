@@ -3,8 +3,13 @@ CUDA-accelerated Bitcoin key generator with Philox RNG, Feistel permutation, ran
 Bitcoin key generator (CUDA) – Philox, Feistel, secp256k1, SHA256, RIPEMD160, batch inversion, checkpoint. GPU random search in custom ranges.
 
 
-
-
+========================================
+ Bitcoin GPU key generator (v2/v3/v4/v5)
+   [OPT: mixed-add + 5bit-windows + preset]
+========================================
+  Mod: v4  (Philox + random pur)
+  -- rkey = 100,000,000,000 (refresh start points)
+========================================
 GPU         : NVIDIA GeForce RTX 3060 CC 8.6  (28 SM-uri)
 Block size  : 256 thread-uri/bloc
 Grid size   : 25,600 blocuri [gpux override/preset]
