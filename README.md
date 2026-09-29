@@ -2,6 +2,7 @@
 CUDA-accelerated Bitcoin key generator with Philox RNG, Feistel permutation, random search, and checkpoint support (v2/v3/v4/v5).
 Bitcoin key generator (CUDA) – Philox, Feistel, secp256k1, SHA256, RIPEMD160, batch inversion, checkpoint. GPU random search in custom ranges.
 
+./wallet_cuda11 -v4 -gpux 100,256 -kpt 4  20000000:3fffffff 1LHtnpd8nU5VHEMkG2TMYYNUjjLc992bps
 
 ========================================
  Bitcoin GPU key generator (v2/v3/v4/v5)
